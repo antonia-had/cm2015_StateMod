@@ -23,7 +23,7 @@
   WYR        : cyr1    Year type (a5, All caps, right justified !!)
        1     : icondem 1=no add; 2=add, 3=total demand in *.ddm
        0     : ichk    0 = off, 1=print river network,  -n= detailed printout at river node ichk
-       0     : ireopx  Re-operation switch (0=re-operate;1=no re-operation)
+      10     : ireopx  Re-operation switch (0=re-operate;1=no re-operation)
        1     : ireach  Switch for instream flow reach approach (0=No insream flow reach approach, 1=Instream reach approach)
        1     : icall   Switch for detailed call data (0=no detailed call data; 1=yes detailed call data)
        0     : ccall   Detailed call water right ID (not used if icall=0)
